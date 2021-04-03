@@ -1,5 +1,5 @@
 from setup import *
-from pixelprocessing import renderer
+
 
 
 class Raindrop:
@@ -39,8 +39,6 @@ class MainDrop(Raindrop):
 		self.busted = None
 		self.sub_drops_num = 100
 		v_x, v_y = 0.0, 10.0*random.random()
-
-		v_x, v_y = 0.0, 0.0
 		x, y = random.randint(0, SCREENSIZE[0]), 0.0
 		super(MainDrop, self).__init__(r, v_x, v_y ,x, y)
 		pg.mixer.music.load('drop.wav')

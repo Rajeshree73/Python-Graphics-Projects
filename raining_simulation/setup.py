@@ -5,10 +5,10 @@ import random
 # initialize py engine
 pg.init()
 
-SCREENSIZE = (500,500)
+SCREENSIZE = (720,640)
 # Screen name
 CAPTIONS = 'Raining Simulation'
-BACKGROUND = (0,0,255)
+BACKGROUND = (0,0,0)
 
 # colour palatte 
 WHITE = (255, 255, 255)
