@@ -7,7 +7,7 @@ pg.init()
 # Screen Specification parameters
 SCREENSIZE = (720, 640)
 CAPTIONS = "Raindrops"
-BACKGROUND = (135, 206, 235)
+BACKGROUND = (25, 25, 112)
 BACKALPHA = 230
 
 # Color palette

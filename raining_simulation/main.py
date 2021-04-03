@@ -2,7 +2,7 @@ from raindrop import *
 from pixel_processing import renderer
 
 num_drops = 50
-drops = [MainDrop(2, BLUE) for i in range(num_drops)]
+drops = [MainDrop(2, (240, 255, 255)) for i in range(num_drops)]
 
 
 def setup():
