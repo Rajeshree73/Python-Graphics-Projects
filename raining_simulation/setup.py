@@ -2,24 +2,22 @@ import pygame as pg
 import sys
 import random
 
-# initialize py engine
 pg.init()
 
-SCREENSIZE = (500,500)
-# Screen name
-CAPTIONS = 'Raining Simulation'
-BACKGROUND = (0,0,255)
+# Screen Specification parameters
+SCREENSIZE = (720, 640)
+CAPTIONS = "Raindrops"
+BACKGROUND = (0, 30, 0)
+BACKALPHA = 230
 
-# colour palatte 
+# Color palette
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 BLUE = (0, 0, 255)
-BACKALPHA = 230
 
-DISPSURFACE = pg.display.set_mode(SCREENSIZE, pg.SRCALPHA, 32) # 32= DEPTH
+DISPSURFACE = pg.display.set_mode(SCREENSIZE, pg.SRCALPHA, 32)
 pg.display.set_caption(CAPTIONS)
 
-FPS = 60
+FPS = 50
 CLOCK = pg.time.Clock()
-
