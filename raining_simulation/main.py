@@ -1,7 +1,7 @@
 
 from raindrops import *
 
-num_drops = 10
+num_drops = 50
 # Creating instance of Drop
 drops = [MainDrop(3, WHITE) for i in range(num_drops)]
 
@@ -11,7 +11,7 @@ def setup():
 
 
 def loop():
-	renderer()
+	
 	[drops[i].update() for i in range(num_drops)]
 	[drops[i].draw() for i in range(num_drops)]
 
